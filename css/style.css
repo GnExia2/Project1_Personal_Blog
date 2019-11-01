@@ -1,4 +1,25 @@
+.container {
+  display: flex;
+  border: 2px solid yellow;
+  flex-direction: row-reverse;
+}
+
+
 h1 {
   color: red;
   background-color: blue;
+}
+
+@media(min-width:900px) {
+  body{
+   background-color:white;
+ }
+}
+
+article {
+  background: blue;
+}
+
+#footer {
+  background-color: grey;
 }
