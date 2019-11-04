@@ -1,13 +1,18 @@
+
 .container {
   display: flex;
   border: 2px solid yellow;
-  flex-direction: row-reverse;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 
+.background {
+  background-color: green;
+}
 
 h1 {
+  justify-content: center;
   color: red;
-  background-color: blue;
 }
 
 @media(min-width:900px) {
