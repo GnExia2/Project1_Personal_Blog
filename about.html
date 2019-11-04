@@ -4,15 +4,22 @@
   <head>
     <meta charset="utf-8">
     <title>Garrick Ngai's Personal Blog</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" type="text/css" href="./css/style.css">
   </head>
 
   <body>
-    <header>
-      <h1>Header</h1>
-    </header>
+    <div class="title-background">
+      <div class="container">
+          <header>
+            <h1>Garrick Ngai Web Development Blog</h1>
+          </header>
+        </div>
+      </div>
+    </div>
 
-    <div class = "container">
+    <div class="container">
       <nav>
         <ul>
           <a href="index.html">Home</a>
@@ -23,49 +30,57 @@
       </nav>
     </div>
 
-    <!-- Article#1 -->
-    <article>
-      <h2>About me</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
-      </p>
-      <h3>
-        Subsection
-      </h3>
-      <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-    </article>
+
+    <div class="container">
+      <div class="article1">
+        <article>
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.
+          </p>
+          <h3>
+            Subsection
+          </h3>
+          <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
+        </article>
+      </div>
+    </div>
+
+
 
 
     <!-- Footer -->
-    <section id="footer">
-      <div class="inner">
-        <h2 class="major">Get in touch</h2>
-        <form method="post" action="#">
-          <div class="fields">
-            <div class="field">
-              <label for="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div class="field">
-              <label for="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div class="field">
-              <label for="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
+      <section id="footer">
+        <div class = "container">
+          <div class="inner">
+            <h2 class="major">Get in touch</h2>
+            <form method="post" action="#">
+              <div class="fields">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" id="name" />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="field">
+                  <label for="message">Message</label>
+                  <textarea name="message" id="message" rows="4"></textarea>
+                </div>
+              </div>
+              <ul class="actions">
+                <li><input type="submit" value="Send Message" /></li>
+              </ul>
+            </form>
+            <ul class="contact">
+              <li class="number">(650) 305-0900</li>
+              <li class="email"><a href="#">information@untitled.tld</a></li>
+              <li class="instagram"><a href="#">instagram.com/untitled-tld</a></li>
+            </ul>
           </div>
-          <ul class="actions">
-            <li><input type="submit" value="Send Message" /></li>
-          </ul>
-        </form>
-        <ul class="contact">
-          <li class="number">(650) 305-0900</li>
-          <li class="email"><a href="#">information@untitled.tld</a></li>
-          <li class="instagram"><a href="#">instagram.com/untitled-tld</a></li>
-        </ul>
-      </div>
-    </section>
+        </div>
+      </section>
 
 
   </body>
