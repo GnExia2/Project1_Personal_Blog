@@ -6,8 +6,8 @@
   font-family: 'Roboto', sans-serif;
 }
 
-.background {
-  background-color: green;
+.title-background {
+
 }
 
 h1 {
@@ -22,9 +22,12 @@ h1 {
 }
 
 article {
-  background: blue;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
 }
 
 #footer {
   background-color: grey;
+  justify-content: center;
 }
