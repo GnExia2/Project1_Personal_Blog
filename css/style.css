@@ -1,6 +1,6 @@
 .grid-container {
   display: grid;
-  justify-content: right;
+  justify-content: center;
 }
 
 .container {
@@ -20,12 +20,6 @@ a {
 
 h1 {
   justify-content: center;
-}
-
-@media(min-width:900px) {
-  body{
-   background-color:white;
- }
 }
 
 article {
